@@ -1,0 +1,41 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+#header, #footer
+{
+  background-color: #241d1d;
+  padding-right: 20px;
+}
+
+#header p
+{
+  margin: 1.5em;
+  text-align: right;
+  margin-right: 0px;
+}
+
+#header_img, #footer_img
+{
+  line-height:8px;
+}
+
+#content
+{
+  text-align: center;
+  background-color: #434d61;
+  padding-top: 2em;
+  padding-right:20px;
+}
+
+body
+{
+    font-family: helvetica, arial;
+    font-size: 15px;
+    background-color: #888888;
+    color: #dddddd;
+    line-height: 18px;
+}

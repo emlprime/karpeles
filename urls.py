@@ -1,6 +1,6 @@
 from django.conf.urls.defaults import *
 from django.contrib import admin
-from thealternativemedicinecabinet.settings import MEDIA_ROOT
+from karpeles.settings import MEDIA_ROOT
 
 admin.autodiscover()
 
