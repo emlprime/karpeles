@@ -14,7 +14,7 @@ CURRENT_PATH = os.path.dirname(os.path.realpath(__file__))
 PROJECT_NAME = "karpeles"
 
 DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = 'db_data'             # Or path to database file if using sqlite3.
+DATABASE_NAME = CURRENT_PATH + '/db_data'             # Or path to database file if using sqlite3.
 DATABASE_USER = ''             # Not used with sqlite3.
 DATABASE_PASSWORD = ''         # Not used with sqlite3.
 DATABASE_HOST = ''             # Set to empty string for localhost. Not used with sqlite3.
