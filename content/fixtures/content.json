@@ -1,0 +1,89 @@
+[
+    {
+        "pk": 1, 
+        "model": "content.hometext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "above_fold": "This is the above fold text area.  This is where you will put 2-3 lines for your potential customers to read first.  You will likely want to mention your experience and other reasons why your potential clients should choose to work with you.", 
+            "below_fold": "This is the below fold text area.  This is where you can put several paragraphs about your practice areas, your experience, and other information about your firm."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_4": "Relief from Stay", 
+            "sub_area_1": "Chapter 7 Filings", 
+            "sub_area_3": "Chapter 13 Wage Earner's Plans", 
+            "sub_area_2": "Chapter 11 Business Reorganizations", 
+            "image": "images/karpeles_img_r4_c8.png", 
+            "title": "Bankruptcy"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_4": "Construction Defect Litigation", 
+            "sub_area_1": "Construction Liens and Debt Recovery", 
+            "sub_area_3": "Business and Real Estate Transactions", 
+            "sub_area_2": "Construction Contracts", 
+            "image": "images/karpeles_img_r4_c6.png", 
+            "title": "Real Estate and Construction Law"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_4": "Creditor's Rights", 
+            "sub_area_1": "Breach of Contract", 
+            "sub_area_3": "Collections", 
+            "sub_area_2": "Commercial Law", 
+            "image": "images/karpeles_img_r4_c3.png", 
+            "title": "Business Litigation"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.abouttext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "about_text": "This is the text for the about page.  More information about the firm and why your potential clients should contact you."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.attorneytext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "text": "This is the intro text to introduce your team of attorneys"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.practicetext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "practice_text": "This is the text to introduce the practice page.  We will add more information about practice areas, etc."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.resourcetext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "resource_text": "This is the text for the resources page"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.contacttext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "phone": "(323) 782-1344", 
+            "contact_text": "Information for contacting you", 
+            "email": "ejkarpeles@sbcglobal.net"
+        }
+    }
+]
