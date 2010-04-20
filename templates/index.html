@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="grid_11 prefix_1">{{ homeText.above_fold }}</div>
+
+<div class="grid_13" id="practice_areas">
+<ul>
+{% for area in practice_areas %}
+<li>
+
+<div class="grid_4">
+<h1>{{ area.title }}</h1>
+<img src="/site_media/{{ area.image }}" alt="{{ area.title }}" /> 
+<p>{{ area.sub_area_1 }}</p>
+<p>{{ area.sub_area_2 }}</p>
+<p>{{ area.sub_area_3 }}</p>
+<p>{{ area.sub_area_4 }}</p>
+</div>
+
+</li>
+{% endfor %}
+</ul>
+</div>
+
+<div class="grid_11 prefix_1">{{ homeText.below_fold }}</div>
+
+{% endblock %}

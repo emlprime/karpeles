@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="grid_11 prefix_1">{{ attorneyText.text }}</div>
+
+<div class="grid_13" id="practice_areas">
+<ul>
+{% for attorney in attorneys %}
+<li>
+
+<div class="grid_4">
+<h1>{{ attorney.name }}</h1>
+<h3>{{ attorney.title }}</h3>
+<img src="/site_media/{{ attorney.image }}" alt="{{ attorney.title }}" /> 
+</div>
+
+</li>
+{% endfor %}
+</ul>
+</div>
+
+{% endblock %}
