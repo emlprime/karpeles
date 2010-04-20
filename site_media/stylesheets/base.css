@@ -57,9 +57,14 @@ ul img
   margin-top: 0.5em;
 }
 
+li div:hover
+{
+  background-color: #212b39;
+  color:white;
+}
+
 li div
 {
-  border: 1px solid white;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   height: 235px;
