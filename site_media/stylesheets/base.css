@@ -114,6 +114,7 @@ ul
   padding-top: 1em;
   padding-bottom: 1em;
   padding-right:20px;
+  min-height: 400px;
   border-right: 2px solid #333333;
   border-left: 2px solid #333333;
 }
@@ -125,4 +126,10 @@ body
     background-color: #888888;
     color: #cccccc;
     line-height: 18px;
+}
+
+#contact p
+{
+  margin: 0.5em;
+  font-size: 15px;
 }

@@ -2,6 +2,6 @@
 
 {% block content %}
 
-<div class="grid_11 prefix_1">{{ contactText.contact_text }}</div>
+<div id="contact" class="grid_11 prefix_1">{{ contactText.contact_text|escape|linebreaks }}</div>
 
 {% endblock %}

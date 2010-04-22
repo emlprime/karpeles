@@ -16,7 +16,7 @@
 <div class="grid_8">
 <h1>{{ attorney.name }}</h1>
 <h3>{{ attorney.title }}</h3>
-<p>{{ attorney.about }}</p>
+<p>{{ attorney.about|escape|linebreaks }}</p>
 </div>
 
 </li>
