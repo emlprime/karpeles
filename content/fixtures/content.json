@@ -13,7 +13,7 @@
         "model": "content.practicearea", 
         "fields": {
             "sub_area_4": "Relief from Stay", 
-            "sub_area_1": "Chapter 7 Filings", 
+            "sub_area_1": "Chapter 7 Bankruptcies", 
             "sub_area_3": "Chapter 13 Wage Earner's Plans", 
             "sub_area_2": "Chapter 11 Business Reorganizations", 
             "image": "images/karpeles_img_r4_c8.png", 
@@ -25,7 +25,7 @@
         "model": "content.practicearea", 
         "fields": {
             "sub_area_4": "Construction Defect Litigation", 
-            "sub_area_1": "Construction Liens and Debt Recovery", 
+            "sub_area_1": "Mechanic's Liens and Debt Recovery", 
             "sub_area_3": "Business and Real Estate Transactions", 
             "sub_area_2": "Construction Contracts", 
             "image": "images/karpeles_img_r4_c6.png", 
@@ -50,6 +50,33 @@
         "fields": {
             "date": "2010-04-19", 
             "about_text": "This is the text for the about page.  More information about the firm and why your potential clients should contact you."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "The principal and founder of the firm, Eli J. Karpeles, Esq., brings formidable and extensive experience as a litigator and trial attorney to any legal dispute.\r\n                \r\nAfter a four-year tour of service with the U.S. Navy concluding in an honorable discharge, Mr. Karpeles earned a B.A. in Economics from CSU Northridge with honors, and pursued graduate study in Economics at the University of Southern California. He then went on to earn his law degree from Loyola Law School, and founded Karpeles & Associates in 1983 after clerking at Lanak & Hanna, at the time one of the largest construction law firms in the state.          \r\n                                                                                                                    \r\nMr. Karpeles has tried over 50 cases in his career, and has earned multiple million-dollar plus verdicts in his clients' favor over the years. He was inducted into the American Trial Lawyers Association, an invitation-only organization made up of the nation\u2019s most prominent and successful trial attorneys, and is also a member of the Beverly Hills Bar Association and the Building Industry Credit Association. In addition to litigation and trial work, Mr. Karpeles regularly practices in mandatory and voluntary arbitration and mediation settings, and also has a successful track record at the appellate level.\r\n", 
+            "name": "Eli J. Karpeles", 
+            "title": "Principal"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "Ryan D. Metheny earned his B.A., magna cum laude, in Honors English and History from the University of Notre Dame, and received his law degree from the UCLA School of Law in 2009. In law school, Mr. Metheny focused on litigation- and property-related coursework in anticipation of working in construction and real estate law.  He clerked at litigation firms in Los Angeles and Chicago, and for a new attorney has considerable experience in the nuts and bolts, as well as the strategy and tactics, of litigation and trial work. Mr. Metheny prides himself on excellent written work, having received the Monsignor O'Brien Award for Best Senior Essay in History in 2005 at the University of Notre Dame, and having been chosen for the exclusive Honors English program at Notre Dame. He passed the July 2009 California Bar Examination.", 
+            "name": "Ryan D. Metheny", 
+            "title": "Associate"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "Jack H. Karpeles is a seasoned litigator and trial attorney, having tried over 100 cases in his career. After graduating from Western State University College of Law, he practiced at as in-house counsel in the insurance industry for many years. In addition to his own practice, he also currently serves as of counsel at the firm of Karpeles & Associates.", 
+            "name": "Jack H. Karpeles", 
+            "title": "Of Counsel"
         }
     }, 
     {
@@ -82,7 +109,7 @@
         "fields": {
             "date": "2010-04-19", 
             "phone": "(323) 782-1344", 
-            "contact_text": "Information for contacting you", 
+            "contact_text": "We welcome all inquiries and questions:\r\n\r\nT: 323.782.1344\r\nF: 323.782.1975\r\n\r\nEli J. Karpeles, Esq.\r\neli@karpeleslaw.com\r\n\r\nRyan D. Metheny, Esq.\r\nryan@karpeleslaw.com\r\n\r\nAddress:\r\nKarpeles & Associates\r\n8383 Wilshire Blvd.\r\nSuite 346\r\nBeverly Hills, CA 90211 ", 
             "email": "ejkarpeles@sbcglobal.net"
         }
     }
