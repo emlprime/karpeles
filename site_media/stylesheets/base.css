@@ -133,3 +133,18 @@ body
   margin: 0.5em;
   font-size: 15px;
 }
+
+#practice_area_detail h1, #practice_area_detail h3, #practice_area_detail p
+{
+  margin: 0.5em;
+}
+
+#practice_area_detail h1
+{
+  font-size: 16px;
+}
+
+#practice_area_detail h3
+{
+  font-size: 14px;
+}

@@ -2,6 +2,12 @@
 
 {% block content %}
 
-<div class="grid_11 prefix_1">{{ practiceText.practice_text }}</div>
+<div class="grid_11 prefix_1">{{ practiceText.practice_text|escape|linebreaks }}</div>
+
+{% for area in practiceAreas %}
+
+<a href="/practice_areas/{{ area.slug }}/"><h1>{{ area.title }}</h1></a>
+
+{% endfor %}
 
 {% endblock %}

@@ -34,6 +34,7 @@ def practice_areas(request):
     """
     template = "practice_areas.html"
     practiceText = PracticeText.objects.latest()
+    practiceAreas = PracticeArea.objects.all()
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))
 

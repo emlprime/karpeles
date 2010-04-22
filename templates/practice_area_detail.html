@@ -1,7 +1,24 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div id="practice_area_detail">
 
+<h1>{{ object.title }}</h1>
 
+<p>{{ object.text|escape|linebreaks }}</p>
+
+<a name="#{{sub_area_1_link}}"><h3>{{ object.sub_area_1 }}</h3>
+<p>{{ object.sub_area_1_text|escape|linebreaks }}</p>
+
+<a name="#{{sub_area_2_link}}"><h3>{{ object.sub_area_2 }}</h3>
+<p>{{ object.sub_area_2_text|escape|linebreaks }}</p>
+
+<a name="#{{sub_area_3_link}}"><h3>{{ object.sub_area_3 }}</h3>
+<p>{{ object.sub_area_3_text|escape|linebreaks }}</p>
+
+<a name="#{{sub_area_4_link}}"><h3>{{ object.sub_area_4 }}</h3>
+<p>{{ object.sub_area_4_text|escape|linebreaks }}</p>
+
+</div>
 
 {% endblock %}

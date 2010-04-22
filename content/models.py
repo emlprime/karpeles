@@ -22,6 +22,7 @@ class PracticeArea(models.Model):
     title = models.CharField(max_length = 255)
     slug = models.SlugField(max_length = 255)
     image = models.ImageField(upload_to="images", null=True, blank=True)
+    text = models.TextField()
     sub_area_1 = models.CharField(max_length = 255)
     sub_area_1_link = models.CharField(max_length = 255)
     sub_area_1_text = models.TextField()
