@@ -20,11 +20,20 @@ class PracticeArea(models.Model):
     """Model for the practice areas displayed on the main page
     """
     title = models.CharField(max_length = 255)
+    slug = models.SlugField(max_length = 255)
     image = models.ImageField(upload_to="images", null=True, blank=True)
     sub_area_1 = models.CharField(max_length = 255)
+    sub_area_1_link = models.CharField(max_length = 255)
+    sub_area_1_text = models.TextField()
     sub_area_2 = models.CharField(max_length = 255)
+    sub_area_2_link = models.CharField(max_length = 255)
+    sub_area_2_text = models.TextField()
     sub_area_3 = models.CharField(max_length = 255)
+    sub_area_3_link = models.CharField(max_length = 255)
+    sub_area_3_text = models.TextField()
     sub_area_4 = models.CharField(max_length = 255)
+    sub_area_4_link = models.CharField(max_length = 255)
+    sub_area_4_text = models.TextField()
 
     def __unicode__(self):
         return self.title
