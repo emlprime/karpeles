@@ -1,7 +1,7 @@
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 
-from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText
+from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText, DisclaimerText
 
 def index(request):
     """Submits the home page information to the URL
@@ -51,5 +51,13 @@ def contact(request):
     """
     template = "contact.html"
     contactText = ContactText.objects.latest()
+    context=locals()
+    return render_to_response(template, context, context_instance=RequestContext(request))
+
+def disclaimer(request):
+    """ Submits latest disclaimer text to the URL
+    """
+    template = "disclaimer.html"
+    disclaimerText=DisclaimerText.objects.latest()
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))

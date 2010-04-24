@@ -120,3 +120,17 @@ class ContactText(models.Model):
 
     def __unicode__(self):
         return str(self.date)
+
+class DisclaimerText(models.Model):
+    """ Model for the disclaimer text
+    """
+    
+    disclaimer_text = models.TextField()
+    date = models.DateField()
+
+    class Meta:
+        ordering = ['-date']
+        get_latest_by = "date"
+
+    def __unicode__(self):
+        return str(self.date)

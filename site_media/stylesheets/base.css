@@ -5,13 +5,6 @@
     padding:0;
 }
 
-
-#header
-{
-  margin-top: 1em;
-}
-
-
 a:link, a:visited, a:active
 {
   color: #cccccc;
@@ -60,14 +53,13 @@ ul
 #practice_areas li div:hover
 {
   background-color: #212b39;
-  color:white;
 }
 
 #practice_areas li div
 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  height: 235px;
+  height: 247px;
   margin-bottom: 1em;
   background-color: #101a28;
 }
@@ -132,6 +124,17 @@ body
 {
   margin: 0.5em;
   font-size: 15px;
+}
+
+#disclaimer h1
+{
+  font-size:16px;
+  text-decoration: underline;
+}
+
+#disclaimer p
+{
+  margin: 1em;
 }
 
 #practice_area_detail h1, #practice_area_detail h3, #practice_area_detail p

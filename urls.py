@@ -19,6 +19,7 @@ urlpatterns += patterns('karpeles.content.views',
     (r'^practice_areas/$', 'practice_areas'),
     (r'^resources/$', 'resources'),
     (r'^contact/$', 'contact'),
+    (r'^disclaimer/$', 'disclaimer'),
 )
 
 urlpatterns += patterns('',
