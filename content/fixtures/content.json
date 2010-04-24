@@ -14,6 +14,7 @@
         "fields": {
             "sub_area_2_text": "Sub area info", 
             "sub_area_4": "Relief from Stay", 
+            "sub_area_5_link": "#loan_modifications", 
             "sub_area_1": "Chapter 7 Bankruptcies", 
             "sub_area_4_link": "#relief_from_stay", 
             "sub_area_3": "Chapter 13 Wage Earner's Plans", 
@@ -22,10 +23,12 @@
             "image": "images/karpeles_img_r4_c8.png", 
             "sub_area_1_text": "Sub area info", 
             "sub_area_4_text": "Sub area info", 
+            "sub_area_5_text": "Sub area info", 
             "sub_area_3_text": "Sub area info", 
             "sub_area_3_link": "#chapter_13_wage_earners_plans", 
             "sub_area_2": "Chapter 11 Business Reorganizations", 
             "sub_area_2_link": "#chaper_11_business_reorganizations", 
+            "sub_area_5": "Loan Modifications", 
             "slug": "bankruptcy", 
             "sub_area_1_link": "#chapter_7_bankruptcies"
         }
@@ -36,6 +39,7 @@
         "fields": {
             "sub_area_2_text": "Sub area info", 
             "sub_area_4": "Construction Defect Litigation", 
+            "sub_area_5_link": null, 
             "sub_area_1": "Mechanic's Liens and Debt Recovery", 
             "sub_area_4_link": "#contruction_defect_litigation", 
             "sub_area_3": "Business and Real Estate Transactions", 
@@ -44,10 +48,12 @@
             "image": "images/karpeles_img_r4_c6.png", 
             "sub_area_1_text": "Sub area info", 
             "sub_area_4_text": "Sub area info", 
+            "sub_area_5_text": null, 
             "sub_area_3_text": "Sub area info", 
             "sub_area_3_link": "#business_and_real_estate_transactions", 
             "sub_area_2": "Construction Contracts", 
             "sub_area_2_link": "#construction_contracts", 
+            "sub_area_5": null, 
             "slug": "real_estate_and_construction_law", 
             "sub_area_1_link": "#mechanics_liens_and_debt_recovery"
         }
@@ -58,6 +64,7 @@
         "fields": {
             "sub_area_2_text": "Info on sub area", 
             "sub_area_4": "Creditor's Rights", 
+            "sub_area_5_link": null, 
             "sub_area_1": "Breach of Contract", 
             "sub_area_4_link": "#creditors_rights", 
             "sub_area_3": "Collections", 
@@ -66,10 +73,12 @@
             "image": "images/karpeles_img_r4_c3.png", 
             "sub_area_1_text": "Info on sub area", 
             "sub_area_4_text": "Info on sub area", 
+            "sub_area_5_text": null, 
             "sub_area_3_text": "Info on sub area", 
             "sub_area_3_link": "#commercial_law", 
             "sub_area_2": "Commercial Law", 
             "sub_area_2_link": "#commercial_law", 
+            "sub_area_5": null, 
             "slug": "business_litigation", 
             "sub_area_1_link": "#breach_of_contract"
         }
@@ -141,6 +150,14 @@
             "phone": "(323) 782-1344", 
             "contact_text": "We welcome all inquiries and questions:\r\n\r\nT: 323.782.1344\r\nF: 323.782.1975\r\n\r\nEli J. Karpeles, Esq.\r\neli@karpeleslaw.com\r\n\r\nRyan D. Metheny, Esq.\r\nryan@karpeleslaw.com\r\n\r\nAddress:\r\nKarpeles & Associates\r\n8383 Wilshire Blvd.\r\nSuite 346\r\nBeverly Hills, CA 90211 ", 
             "email": "ejkarpeles@sbcglobal.net"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.disclaimertext", 
+        "fields": {
+            "date": "2010-04-24", 
+            "disclaimer_text": "This site is informational in nature and is not intended to offer legal advice of any kind.  For legal advice regarding your individual situation, please contact an attorney.  While we invite your contact, contact does not establish an attorney-client relationship.  Until an attorney-client relationship is established, please do not send us any confidential information."
         }
     }
 ]
