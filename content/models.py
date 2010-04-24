@@ -35,6 +35,9 @@ class PracticeArea(models.Model):
     sub_area_4 = models.CharField(max_length = 255)
     sub_area_4_link = models.CharField(max_length = 255)
     sub_area_4_text = models.TextField()
+    sub_area_5 = models.CharField(max_length = 255, null=True, blank=True)
+    sub_area_5_link = models.CharField(max_length = 255, null=True, blank=True)
+    sub_area_5_text = models.TextField(null=True, blank=True)
 
     def __unicode__(self):
         return self.title

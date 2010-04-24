@@ -19,6 +19,13 @@
 <a name="#{{sub_area_4_link}}"><h3>{{ object.sub_area_4 }}</h3>
 <p>{{ object.sub_area_4_text|escape|linebreaks }}</p>
 
+{% if object.sub_area_5 %}
+
+<a name="#{{sub_area_5_link}}"><h3>{{ object.sub_area_5 }}</h3>
+<p>{{ object.sub_area_5_text|escape|linebreaks }}</p>
+
+{% endif %}
+
 </div>
 
 {% endblock %}
