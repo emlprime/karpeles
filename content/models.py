@@ -61,6 +61,7 @@ class Attorney(models.Model):
 
     name = models.CharField(max_length = 255)
     title = models.CharField(max_length = 255)
+    image = models.ImageField(upload_to="images", null=True, blank=True)
     about = models.TextField()
 
     def __unicode__(self):
