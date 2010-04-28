@@ -5,24 +5,24 @@
 
 <h1>{{ object.title }}</h1>
 
-<p>{{ object.text|escape|linebreaks }}</p>
+{{ object.text|escape|linebreaks }}
 
-<a name="#{{sub_area_1_link}}"><h3>{{ object.sub_area_1 }}</h3>
-<p>{{ object.sub_area_1_text|escape|linebreaks }}</p>
+<h3><a name="{{object.sub_area_1_link}}">{{ object.sub_area_1 }}</a></h3>
+{{ object.sub_area_1_text|escape|linebreaks }}
 
-<a name="#{{sub_area_2_link}}"><h3>{{ object.sub_area_2 }}</h3>
-<p>{{ object.sub_area_2_text|escape|linebreaks }}</p>
+<h3><a name="{{object.sub_area_2_link}}">{{ object.sub_area_2 }}</a></h3>
+{{ object.sub_area_2_text|escape|linebreaks }}
 
-<a name="#{{sub_area_3_link}}"><h3>{{ object.sub_area_3 }}</h3>
-<p>{{ object.sub_area_3_text|escape|linebreaks }}</p>
+<h3><a name="{{object.sub_area_3_link}}">{{ object.sub_area_3 }}</a></h3>
+{{ object.sub_area_3_text|escape|linebreaks }}
 
-<a name="#{{sub_area_4_link}}"><h3>{{ object.sub_area_4 }}</h3>
-<p>{{ object.sub_area_4_text|escape|linebreaks }}</p>
+<h3><a name="{{object.sub_area_4_link}}">{{ object.sub_area_4 }}</a></h3>
+{{ object.sub_area_4_text|escape|linebreaks }}
 
 {% if object.sub_area_5 %}
 
-<a name="#{{sub_area_5_link}}"><h3>{{ object.sub_area_5 }}</h3>
-<p>{{ object.sub_area_5_text|escape|linebreaks }}</p>
+<h3><a name="{{object.sub_area_5_link}}">{{ object.sub_area_5 }}</a></h3>
+{{ object.sub_area_5_text|escape|linebreaks }}
 
 {% endif %}
 

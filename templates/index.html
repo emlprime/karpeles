@@ -8,20 +8,17 @@
 <ul>
 {% for area in practice_areas %}
 <li>
-<a href="/practice_areas/{{area.slug}}/">
 <div class="grid_4">
-<h1>{{ area.title }}</h1>
+<h1><a href="/practice_areas/{{area.slug}}/">{{ area.title }}</a></h1>
 <img src="/site_media/{{ area.image }}" alt="{{ area.title }}" /> 
-<a href="/practice_areas/{{ area.slug }}/{{ area.sub_area_1_link }}"<p>{{ area.sub_area_1 }}</p></a>
-<a href="/practice_areas/{{ area.slug }}/{{ area.sub_area_2_link }}"<p>{{ area.sub_area_2 }}</p></a>
-<a href="/practice_areas/{{ area.slug }}/{{ area.sub_area_3_link }}"<p>{{ area.sub_area_3 }}</p></a>
-<a href="/practice_areas/{{ area.slug }}/{{ area.sub_area_4_link }}"<p>{{ area.sub_area_4 }}</p></a>
+<p><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_1_link }}">{{ area.sub_area_1 }}</a></p>
+<p><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_2_link }}">{{ area.sub_area_2 }}</a></p>
+<p><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_3_link }}">{{ area.sub_area_3 }}</a></p>
+<p><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_4_link }}">{{ area.sub_area_4 }}</a></p>
 {% if area.sub_area_5 %}
-<a href="/practice_areas/{{ area.slug }}/{{ area.sub_area_5_link }}"<p>{{ area.sub_area_5 }}</p></a>
+<p><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_5_link }}">{{ area.sub_area_5 }}</a></p>
 {% endif %}
-
 </div>
-</a>
 </li>
 {% endfor %}
 </ul>
