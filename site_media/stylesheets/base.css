@@ -151,3 +151,10 @@ body
 {
   font-size: 14px;
 }
+
+#site_map ul
+{
+  text-align: left;
+  margin-left: 280px;
+  list-style-type: circle;
+}

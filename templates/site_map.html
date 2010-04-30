@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="site_map" class="grid_11 prefix_1">
+<h1>Site Map</h1>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/attorneys/">Attorneys</a></li>
+<li><a href="/practice_areas/">Practice Areas</a></li>
+{% for area in practice_areas %}
+<li><a href="/practice_areas/{{area.slug}}/">{{ area.title }}</a></li>
+<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_1_link }}">{{ area.sub_area_1 }}</a></li>
+<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_2_link }}">{{ area.sub_area_2 }}</a></li>
+<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_3_link }}">{{ area.sub_area_3 }}</a></li>
+<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_4_link }}">{{ area.sub_area_4 }}</a></li>
+{% if area.sub_area_5 %}
+<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_5_link }}">{{ area.sub_area_5 }}</a></li>
+{% endif %}
+{% endfor %}
+<li><a href="/resources/">Resources</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="/disclaimer/">Disclaimer</a></li>
+</ul>
+
+</div>
+
+{% endblock %}

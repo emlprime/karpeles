@@ -12,6 +12,15 @@ def index(request):
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))
 
+def site_map(request):
+    """ Submits info including practice areas and practice area links to the URL
+    """
+    template = "site_map.html"
+    practice_areas = PracticeArea.objects.all()
+    context=locals()
+    return render_to_response(template, context, context_instance=RequestContext(request))
+
+
 def about(request):
     """Submits the about information to the URL
     """

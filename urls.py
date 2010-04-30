@@ -6,13 +6,13 @@ from karpeles.content.models import PracticeArea
 admin.autodiscover()
 
 urlpatterns = patterns('django.views.generic.simple',
-    (r'^construction/$', 'direct_to_template', {'template':'construction.html'}),
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
 )
 
 practice_areas = PracticeArea.objects.all()
 
 urlpatterns += patterns('karpeles.content.views',
+    (r'^site_map/$', 'site_map'),
     (r'^$', 'index'),
     (r'^about/$', 'about'),
     (r'^attorneys/$', 'attorneys'),
