@@ -10,13 +10,13 @@
 <li><a href="/attorneys/">Attorneys</a></li>
 <li><a href="/practice_areas/">Practice Areas</a></li>
 {% for area in practice_areas %}
-<li><a href="/practice_areas/{{area.slug}}/">{{ area.title }}</a></li>
-<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_1_link }}">{{ area.sub_area_1 }}</a></li>
-<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_2_link }}">{{ area.sub_area_2 }}</a></li>
-<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_3_link }}">{{ area.sub_area_3 }}</a></li>
-<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_4_link }}">{{ area.sub_area_4 }}</a></li>
+<li><a href="{{area.link}}">{{ area.title }}</a></li>
+<li><a href="{{ area.link }}{{ area.sub_area_1_link }}">{{ area.sub_area_1 }}</a></li>
+<li><a href="{{ area.link }}{{ area.sub_area_2_link }}">{{ area.sub_area_2 }}</a></li>
+<li><a href="{{ area.link }}{{ area.sub_area_3_link }}">{{ area.sub_area_3 }}</a></li>
+<li><a href="{{ area.link }}{{ area.sub_area_4_link }}">{{ area.sub_area_4 }}</a></li>
 {% if area.sub_area_5 %}
-<li><a href="/practice_areas/{{ area.slug }}/#{{ area.sub_area_5_link }}">{{ area.sub_area_5 }}</a></li>
+<li><a href="{{ area.link }}{{ area.sub_area_5_link }}">{{ area.sub_area_5 }}</a></li>
 {% endif %}
 {% endfor %}
 <li><a href="/resources/">Resources</a></li>
