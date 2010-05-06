@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div class="grid_11 prefix_1">{{ attorneyText.text }}</div>
+<div class="grid_11 prefix_1">{{ attorneyText.text|escape|linebreaks }}</div>
 
 <div class="grid_13" id="attorneys">
 <ul>

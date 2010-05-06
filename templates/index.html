@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div class="grid_11 prefix_1">{{ homeText.above_fold }}</div>
+<div class="grid_11 prefix_1">{{ homeText.above_fold|escape|linebreaks }}</div>
 
 <div class="grid_13" id="practice_areas">
 <ul>
@@ -24,6 +24,6 @@
 </ul>
 </div>
 
-<div class="grid_11 prefix_1">{{ homeText.below_fold }}</div>
+<div class="grid_11 prefix_1">{{ homeText.below_fold|escape|linebreaks }}</div>
 
 {% endblock %}
