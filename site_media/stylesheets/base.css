@@ -15,10 +15,10 @@ a:hover
  color: white;
 }
 
-#below_fold
+#below_fold p
 {
-  text-align: left;
-
+  text-align: justify;
+  margin-top: 0.5em;
 }
 
 #header, #footer
