@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<div class="grid_11 prefix_1">{{ attorneyText.text|escape|linebreaks }}</div>
+<div class="body_text grid_11 prefix_1">{{ attorneyText.text|escape|linebreaks }}</div>
 
 <div class="grid_13" id="attorneys">
 <ul>
@@ -16,7 +16,7 @@
 <div class="grid_8">
 <h1>{{ attorney.name }}</h1>
 <h3>{{ attorney.title }}</h3>
-{{ attorney.about|escape|linebreaks }}
+<div class="body_text">{{ attorney.about|escape|linebreaks }}</div>
 </div>
 
 </li>

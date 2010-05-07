@@ -15,7 +15,7 @@ a:hover
  color: white;
 }
 
-#below_fold p
+.body_text p
 {
   text-align: justify;
   margin-top: 0.5em;

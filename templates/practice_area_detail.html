@@ -5,24 +5,24 @@
 
 <h1>{{ object.title }}</h1>
 
-{{ object.text|escape|linebreaks }}
+<div class="body_text">{{ object.text|escape|linebreaks }}</div>
 
 <h3><a name="{{object.sub_area_1_link}}">{{ object.sub_area_1 }}</a></h3>
-{{ object.sub_area_1_text|escape|linebreaks }}
+<div class="body_text">{{ object.sub_area_1_text|escape|linebreaks }}</div>
 
 <h3><a name="{{object.sub_area_2_link}}">{{ object.sub_area_2 }}</a></h3>
-{{ object.sub_area_2_text|escape|linebreaks }}
+<div class="body_text">{{ object.sub_area_2_text|escape|linebreaks }}</div>
 
 <h3><a name="{{object.sub_area_3_link}}">{{ object.sub_area_3 }}</a></h3>
-{{ object.sub_area_3_text|escape|linebreaks }}
+<div class="body_text">{{ object.sub_area_3_text|escape|linebreaks }}</div>
 
 <h3><a name="{{object.sub_area_4_link}}">{{ object.sub_area_4 }}</a></h3>
-{{ object.sub_area_4_text|escape|linebreaks }}
+<div class="body_text">{{ object.sub_area_4_text|escape|linebreaks }}</div>
 
 {% if object.sub_area_5 %}
 
 <h3><a name="{{object.sub_area_5_link}}">{{ object.sub_area_5 }}</a></h3>
-{{ object.sub_area_5_text|escape|linebreaks }}
+<div class="body_text">{{ object.sub_area_5_text|escape|linebreaks }}</div>
 
 {% endif %}
 
