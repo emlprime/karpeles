@@ -43,8 +43,13 @@ class PracticeArea(models.Model):
     def __unicode__(self):
         return self.title
 
+    def sub_area_list(self):
+        return SubArea.objects.filter(area=self)
+
+
 class SubArea(models.Model):
     title = models.CharField(max_length = 255)
+    slug = models.SlugField(max_length = 255)
     link = models.CharField(max_length = 255)
     text = models.TextField()
     area = models.ForeignKey(PracticeArea)
