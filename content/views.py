@@ -1,7 +1,7 @@
 from django.template import RequestContext
 from django.shortcuts import render_to_response
 
-from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText, DisclaimerText
+from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText, DisclaimerText, SubArea
 
 def index(request):
     """Submits the home page information to the URL
@@ -9,6 +9,7 @@ def index(request):
     template = "index.html"
     homeText = HomeText.objects.latest()
     practice_areas = PracticeArea.objects.all()
+    sub_areas = SubArea.objects.all()
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))
 
@@ -44,6 +45,9 @@ def practice_areas(request):
     template = "practice_areas.html"
     practiceText = PracticeText.objects.latest()
     practiceAreas = PracticeArea.objects.all()
+    subAreas = SubArea.objects.all()
+    for practice_area in practiceAreas:
+        practice_area_list = subAreas.filter(area=practice_area)
     context=locals()
     return render_to_response(template, context, context_instance=RequestContext(request))
 

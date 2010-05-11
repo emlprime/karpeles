@@ -43,6 +43,16 @@ class PracticeArea(models.Model):
     def __unicode__(self):
         return self.title
 
+class SubArea(models.Model):
+    title = models.CharField(max_length = 255)
+    link = models.CharField(max_length = 255)
+    text = models.TextField()
+    area = models.ForeignKey(PracticeArea)
+
+    def __unicode__(self):
+        return self.title
+
+
 class AboutText(models.Model):
     """ Model for the about text on About page
     """

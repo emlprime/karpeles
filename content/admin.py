@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText, DisclaimerText
+from karpeles.content.models import HomeText, PracticeArea, AboutText, Attorney, AttorneyText, PracticeText, ResourceText, ContactText, DisclaimerText, SubArea
 
 class HomeTextAdmin(admin.ModelAdmin):
     pass
@@ -9,6 +9,10 @@ admin.site.register(HomeText, HomeTextAdmin)
 class PracticeAreaAdmin(admin.ModelAdmin):
     pass
 admin.site.register(PracticeArea, PracticeAreaAdmin)
+
+class SubAreaAdmin(admin.ModelAdmin):
+    pass
+admin.site.register(SubArea, SubAreaAdmin)
 
 class AboutTextAdmin(admin.ModelAdmin):
     pass

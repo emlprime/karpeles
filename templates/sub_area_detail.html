@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="practice_area_detail" class="grid_11 prefix_1">
+
+<h1>{{ object.title }}</h1>
+
+{{ object.text|escape|linebreaks }}
+
+</div>
+
+{% endblock %}
