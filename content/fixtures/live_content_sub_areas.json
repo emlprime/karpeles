@@ -1,0 +1,312 @@
+[
+    {
+        "pk": 1, 
+        "model": "content.hometext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "above_fold": "Karpeles & Associates: Over 25 years of service to individuals and businesses, large and small, in construction, real estate, business and bankruptcy law.  ", 
+            "below_fold": "The law firm of Karpeles & Associates has provided successful and effective legal representation to the construction industry and local businesses for nearly three decades. The firm represents clients throughout Northern and Southern California, and has successfully litigated cases in virtually every county in the state. The firm represents multinational, publicly traded corporations, as well as small, privately-held businesses.\r\n\r\nOur practice areas include business litigation (breach of contract, collections and creditor's rights, and commercial law), bankruptcy, and all phases of construction law--from drafting of credit agreements and contract formation to payment disputes, debt collection, and the defense of construction defect claims. The firm practices in every phase of litigation, from early settlement, arbitration, and mediation, to trial and appellate work.\r\n\r\nAt Karpeles & Associates, we strive to provide efficient, effective, and above all successful representation to our clients. If you have any questions or think our firm may be right for you or your company, do not hesitate to contact us."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_2_text": "Sub area info", 
+            "sub_area_4": "Creditor's Rights in Bankruptcy", 
+            "sub_area_5_link": "loan_modifications", 
+            "sub_area_1": "Chapter 7 Bankruptcies", 
+            "sub_area_4_link": "creditors_rights", 
+            "sub_area_3": "Chapter 13 Wage Earner's Plans", 
+            "title": "Bankruptcy", 
+            "text": "main text about bankruptcy", 
+            "image": "images/karpeles_img_r4_c8.png", 
+            "sub_area_1_text": "Sub area info", 
+            "sub_area_4_text": "Sub area info", 
+            "sub_area_5_text": "Sub area info", 
+            "link": "http://karpelesbankruptcy.com/", 
+            "sub_area_3_text": "Sub area info", 
+            "sub_area_3_link": "chapter_13", 
+            "sub_area_2": "Chapter 11 Business Reorganizations", 
+            "sub_area_2_link": "chapter_11", 
+            "sub_area_5": "Loan Modifications", 
+            "slug": "bankruptcy", 
+            "sub_area_1_link": "chapter_7"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_2_text": "Sub area info", 
+            "sub_area_4": "Construction Defect Litigation", 
+            "sub_area_5_link": "", 
+            "sub_area_1": "Mechanic's Liens and Debt Recovery", 
+            "sub_area_4_link": "contruction_defect_litigation", 
+            "sub_area_3": "Business and Real Estate Transactions", 
+            "title": "Real Estate and Construction Law", 
+            "text": "main text about real estate and construction law", 
+            "image": "images/karpeles_img_r4_c6.png", 
+            "sub_area_1_text": "Sub area info", 
+            "sub_area_4_text": "Sub area info", 
+            "sub_area_5_text": "", 
+            "link": "/practice_areas/real_estate_and_construction_law/", 
+            "sub_area_3_text": "Sub area info", 
+            "sub_area_3_link": "business_and_real_estate_transactions", 
+            "sub_area_2": "Construction Contracts", 
+            "sub_area_2_link": "construction_contracts", 
+            "sub_area_5": "", 
+            "slug": "real_estate_and_construction_law", 
+            "sub_area_1_link": "mechanics_liens_and_debt_recovery"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.practicearea", 
+        "fields": {
+            "sub_area_2_text": "We provide a wide variety of legal services to our business clients, ranging from advice in selecting the type of organizational entity under which to operate, preparation of agreements, negotiation and drafting of debt workouts, contract drafting and review, dissolution, and other matters.  Our commercial law practice also extends into various matters involving application of the Uniform Commercial Code, which California has adopted, whether in a dispute between businesses, or, often, a dispute between one of our clients and a bank which has failed to heed the requirements of the UCC for banks.    ", 
+            "sub_area_4": "Creditor's Rights", 
+            "sub_area_5_link": "", 
+            "sub_area_1": "Breach of Contract", 
+            "sub_area_4_link": "creditors_rights", 
+            "sub_area_3": "Collections", 
+            "title": "Business Litigation", 
+            "text": "Business litigation can take different forms and deal with many substantive areas of law.  Business, large and small, need to prosecute and defend against lawsuits for a wide variety of reasons.  Most commonly, businesses need to bring suit against individuals or other business entities who have breached a contract for services or payment.  If you are prosecuting such an action, the firm can help you obtain judgment and enforce the remedies available to you.  The firm has many years of experience practicing in creditor's rights and collections, and brings breach of contract suits regularly for its clients.    \r\n\r\nUnlike many other areas of litigation, if you are defending against a breach of contract suit, such a suit will rarely involve an insurance carrier, meaning that you may have to foot the bill for the legal costs of a defense.  At Karpeles & Associates, we strive to provide efficient and cost-effective legal representation, keeping in mind the business aims of our clients, and the fact that legal decisions are also, often, business decisions.        \r\n\r\n", 
+            "image": "images/karpeles_img_r4_c3.png", 
+            "sub_area_1_text": "Karpeles & Associates provide legal representation to their clients most commonly in the area of breach of contract.  Whether the contract at issue is a credit agreement, purchase agreement, real estate contract, lease, or other business agreement, the attorneys at the firm have the experience and knowledge to effectively represent your interests in court and aggressively pursue your legal remedies against the person or business who breached the contract.  We also provide efficient and effective representation to parties charged with breach of contract, keeping in mind the business aims of their clients, and with an eye toward settling or otherwise resolving legal disputes in as efficient a manner as possible.          \r\n\r\n", 
+            "sub_area_4_text": "Broadly, most of the firm's practice over the years falls under the rubric of creditor's rights.  We represents companies, large and small, in matters involving money that is owed to them for goods or services rendered.  To that end, a creditor has a variety of legal rights and remedies available to it.  \r\n\r\nFor instance, if the good or service provided was used in a construction project, the creditor can exercise lien rights against the property on which the materials or labor were put to use.  This type of lien is called a mechanic's lien.  The creditor can also send what is referred to as a stop notice to the lender on a project demanding that it be paid for the labor or materials.  In the construction context, however, a creditor must protect its lien and stop notice rights ahead of time in California by complying with all of the notice and recording requirements of the Civil Code.  \r\n\r\nOutside of the construction context, a creditor can also structure its relationships with potential debtors so as to ensure fuller recovery in the event of non-payment.  This can take the form of a deed of trust to secure a promissory note recorded against a business' real property or an individual's residence, or a security agreement and financing statement to secure some other asset of the debtor as collateral on a debt.  The firm helps its clients structure and negotiate such agreements, and also drafts and reviews contracts memorializing them.  \r\n\r\n \r\n\r\n    ", 
+            "sub_area_5_text": "", 
+            "link": "/practice_areas/business_litigation/", 
+            "sub_area_3_text": "In addition to their practice in litigation, where the object is to obtain judgment, the firm's attorneys have also developed considerable expertise in post-judgment collections.  There are a variety of remedies available to a judgment creditor, including attachment of real property and other assets, levying of the debtor's bank accounts, wage garnishment, repossession of personal property, attachment of contract proceeds, as well as other means of collection.  The firm has experience in virtually every means of collection, and help their clients obtain satisfaction of a judgment in the most efficient means possible.  \r\n\r\nThe firm's attorneys also know that collection in California can begin before judgment is entered, in the form of a prejudgment attachment.  Such a remedy, when available, is an extremely valuable tool in obtaining favorable results for creditors, and the firm exercises it whenever available and practicable.  ", 
+            "sub_area_3_link": "collections", 
+            "sub_area_2": "Commercial Law", 
+            "sub_area_2_link": "commercial_law", 
+            "sub_area_5": "", 
+            "slug": "business_litigation", 
+            "sub_area_1_link": "breach_of_contract"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "Karpeles & Associates provide legal representation to their clients most commonly in the area of breach of contract.  Whether the contract at issue is a credit agreement, purchase agreement, real estate contract, lease, or other business agreement, the attorneys at the firm have the experience and knowledge to effectively represent your interests in court and aggressively pursue your legal remedies against the person or business who breached the contract.  We also provide efficient and effective representation to parties charged with breach of contract, keeping in mind the business aims of their clients, and with an eye toward settling or otherwise resolving legal disputes in as efficient a manner as possible.       ", 
+            "area": 3, 
+            "link": "/sub_areas/breach_of_contract/", 
+            "slug": "breach_of_contract", 
+            "title": "Breach of Contract"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "We provide a wide variety of services to our business clients ranging from advice in selecting the type of organizational entity under which to operate, preparation of agreements, and employee relations, to dissolution, and other matters.", 
+            "area": 3, 
+            "link": "/sub_areas/commercial_law/", 
+            "slug": "commercial_law", 
+            "title": "Commercial Law"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "Info on sub area", 
+            "area": 3, 
+            "link": "/sub_areas/collections/", 
+            "slug": "collections", 
+            "title": "Collections"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "Info on sub area", 
+            "area": 3, 
+            "link": "/sub_areas/creditors_rights/", 
+            "slug": "creditors_rights", 
+            "title": "Creditor's Rights"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "Info on Sub Area", 
+            "area": 2, 
+            "link": "/sub_areas/mechanics_liens_and_debt_recovery/", 
+            "slug": "mechanics_liens_and_debt_recovery", 
+            "title": "Mechanic's Liens and Debt Recovery"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "info on sub area", 
+            "area": 2, 
+            "link": "/sub_areas/construction_contracts", 
+            "slug": "construction_contracts", 
+            "title": "Construction Contracts"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "sub area info", 
+            "area": 2, 
+            "link": "/sub_areas/business_and_real_estate_transactions/", 
+            "slug": "business_and_real_estate_transactions", 
+            "title": "Business and Real Estate Transactions"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "Info on Sub Area", 
+            "area": 2, 
+            "link": "/sub_areas/contruction_defect_litigation/", 
+            "slug": "contruction_defect_litigation", 
+            "title": "Construction Defect Litigation"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "info on sub area", 
+            "area": 1, 
+            "link": "http://www.karpelesbankruptcy.com/chapter_7/", 
+            "slug": "chapter_7_bankruptcies", 
+            "title": "Chapter 7 Bankruptcies"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "info on sub area", 
+            "area": 1, 
+            "link": "http://www.karpelesbankruptcy.com/chapter_11/", 
+            "slug": "chapter_11", 
+            "title": "Chapter 11 Business Reorganizations"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "sub area info", 
+            "area": 1, 
+            "link": "http://www.karpelesbankruptcy.com/chapter_13/", 
+            "slug": "chapter_13", 
+            "title": "Chapter 13 Wage Earner's Plans"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "info on sub area", 
+            "area": 1, 
+            "link": "http://www.karpelesbankruptcy.com/creditors_rights/", 
+            "slug": "creditors_rights", 
+            "title": "Creditor's Rights in Bankruptcy"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "content.subarea", 
+        "fields": {
+            "text": "sub area info", 
+            "area": 1, 
+            "link": "http://www.karpelesbankruptcy.com/loan_modifications/", 
+            "slug": "loan_modifications", 
+            "title": "Loan Modifications"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.abouttext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "about_text": "The law firm of Karpeles & Associates has provided successful and effective legal representation to the construction industry and local businesses for nearly three decades. The firm represents clients throughout Northern and Southern California, and has successfully litigated cases in virtually every county in the state. The firm represents multinational, publicly traded corporations, as well as small, privately-held businesses.\r\n\r\nOur practice areas include bankruptcy, business litigation (breach of contract, collections and creditor's rights, and commercial law), and all phases of construction law--from drafting of credit agreements and contract formation to payment disputes, debt collection, and the defense of construction defect claims. The firm practices in every phase of litigation, from early settlement, arbitration, and mediation, to trial and appellate work.\r\n\r\nIn addition to its other primary areas of practice, over the years Karpeles & Associates have developed a wide-ranging expertise in debt recovery in the construction context. We routinely collect for our clients on mechanic's lien, stop notice, payment bond and surety, breach of contract, and unjust enrichment actions.\r\n\r\nThe attorneys at the firm also have considerable experience representing construction clients in real estate transactions, commercial law, and bankruptcy-related matters.\r\n\r\nAt Karpeles & Associates, we strive to provide efficient, effective, and above all successful representation to our clients. If you have any questions or think our firm may be right for you or your company, do not hesitate to contact us."
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "The principal and founder of the firm, Eli J. Karpeles, Esq., brings formidable and extensive experience as a litigator and trial attorney to any legal dispute.\r\n                \r\nAfter a four-year tour of service with the U.S. Navy concluding in an honorable discharge, Mr. Karpeles earned a B.A. in Economics from CSU Northridge with honors, and pursued graduate study in Economics at the University of Southern California. He then went on to earn his law degree from Loyola Law School, and founded Karpeles & Associates in 1983 after clerking at Lanak & Hanna, at the time one of the largest construction law firms in the state.          \r\n                                                                                                                    \r\nMr. Karpeles has tried over 50 cases in his career, and has earned multiple million-dollar plus verdicts in his clients' favor over the years. He was inducted into the American Trial Lawyers Association, an invitation-only organization made up of the nation\u2019s most prominent and successful trial attorneys, and is also a member of the Beverly Hills Bar Association and the Building Industry Credit Association. In addition to litigation and trial work, Mr. Karpeles regularly practices in mandatory and voluntary arbitration and mediation settings, and also has a successful track record at the appellate level.\r\n", 
+            "image": "", 
+            "name": "Eli J. Karpeles", 
+            "title": "Principal"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "Ryan D. Metheny earned his B.A., magna cum laude, in Honors English and History from the University of Notre Dame, and received his law degree from the UCLA School of Law in 2009. In law school, Mr. Metheny focused on litigation- and property-related coursework in anticipation of working in construction and real estate law.  He clerked at litigation firms in Los Angeles and Chicago, and for a new attorney has considerable experience in the nuts and bolts, as well as the strategy and tactics, of litigation and trial work. Mr. Metheny prides himself on excellent written work, having received the Monsignor O'Brien Award for Best Senior Essay in History in 2005 at the University of Notre Dame, and having been chosen for the exclusive Honors English program at Notre Dame. He passed the July 2009 California Bar Examination.", 
+            "image": "", 
+            "name": "Ryan D. Metheny", 
+            "title": "Associate"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "content.attorney", 
+        "fields": {
+            "about": "Jack H. Karpeles is a seasoned litigator and trial attorney, having tried over 100 cases in his career. After graduating from Western State University College of Law, he practiced at as in-house counsel in the insurance industry for many years. In addition to his own practice, he also currently serves as of counsel at the firm of Karpeles & Associates.", 
+            "image": "", 
+            "name": "Jack H. Karpeles", 
+            "title": "Of Counsel"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.attorneytext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "text": "This is the intro text to introduce your team of attorneys"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.practicetext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "practice_text": "The firm of Karpeles & Associates practices in three primary areas.  Over the years, the majority of the firm's business has come from construction and real estate law, where we represent material suppliers, general contractors, and contractors in all phases of construction law and litigation, with an emphasis upon debt recovery through mechanic's liens and other remedies.  This foundation of practice has allowed the attorneys of the firm to expand into other areas of litigation and transactional practice, as well.  A large portion of our practice can be characterized as business litigation, in which we represent businesses, large and small, from corporations to sole proprietorships, in their various legal needs, including breach of contract actions, creditor's rights, and collections.  \r\n\r\nLastly, in recent years, the firm has developed a growing practice in bankruptcy, on behalf of both creditors and debtors.  This practice takes the form of Chapter 7, 13, and 11 bankruptcy representation for debtors, adversary actions brought by creditors, and the defense of preference payment and similar suits brought by bankruptcy trustees against creditors of the bankruptcy estate.  \r\n\r\nFor more information on our practice areas, please see the following links:\r\n    "
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.resourcetext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "resource_text": "This is the text for the resources page"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.contacttext", 
+        "fields": {
+            "date": "2010-04-19", 
+            "phone": "(323) 782-1344", 
+            "contact_text": "We welcome all inquiries and questions:\r\n\r\nT: 323.782.1344\r\nF: 323.782.1975\r\n\r\nEli J. Karpeles, Esq.\r\neli@karpeleslaw.com\r\n\r\nRyan D. Metheny, Esq.\r\nryan@karpeleslaw.com\r\n\r\nAddress:\r\nKarpeles & Associates\r\n8383 Wilshire Blvd.\r\nSuite 346\r\nBeverly Hills, CA 90211 ", 
+            "email": "ejkarpeles@sbcglobal.net"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "content.disclaimertext", 
+        "fields": {
+            "date": "2010-04-24", 
+            "disclaimer_text": "This site is informational in nature and is not intended to offer legal advice of any kind.  For legal advice regarding your individual situation, please contact an attorney.  While we invite your contact, contact does not establish an attorney-client relationship.  Until an attorney-client relationship is established, please do not send us any confidential information."
+        }
+    }
+]
