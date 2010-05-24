@@ -30,10 +30,6 @@ class PracticeTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(PracticeText, PracticeTextAdmin)
 
-class ResourceTextAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(ResourceText, ResourceTextAdmin)
-
 class ContactTextAdmin(admin.ModelAdmin):
     pass
 admin.site.register(ContactText, ContactTextAdmin)
