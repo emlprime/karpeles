@@ -31,3 +31,7 @@ urlpatterns += patterns ('django.views.generic.list_detail',
     (r'^practice_areas/(?P<slug>[a-z_]+)/$', 'object_detail', {'queryset': practice_areas, 'template_name':'practice_area_detail.html'}, "practice_details"),
     (r'^sub_areas/(?P<slug>[a-z_]+)/$', 'object_detail', {'queryset': sub_areas, 'template_name':'sub_area_detail.html'}, "sub_area_details"),
 )
+
+urlpatterns += patterns ('django.views.generic.simple',
+    (r'^googlehostedservice.html', 'direct_to_template', {"template":"googlehostedservice.html"}),
+)
